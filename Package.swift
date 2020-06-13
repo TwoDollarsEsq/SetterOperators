@@ -11,6 +11,10 @@ let package = Package(
         ),
     ],
     targets: [
-        .target(name: "SetterOperators")
+        .target(name: "SetterOperators"),
+        .testTarget(
+            name: "SetterOperatorsTests",
+            dependencies: ["SetterOperators"]
+        )
     ]
 )

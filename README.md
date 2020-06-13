@@ -8,7 +8,7 @@
 A Swift package with a few usefull operators that can improve ergonomics of your codebase.
 
 ## Problem 🌊
-Image the situation when you write a function that should create a view:
+Imagine a situation when you write a function that should create a view:
 ```swift
 func makeUIView() -> UIView {
     return UIView()
