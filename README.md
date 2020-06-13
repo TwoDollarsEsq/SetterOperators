@@ -1,3 +1,3 @@
 # SetterOperators
 
-A description of this package.
+Provides a few usefull operators that can improve visual appearence of your codebase.
